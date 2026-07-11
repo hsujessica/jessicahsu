@@ -1,10 +1,11 @@
 import React from 'react'
 import ProjectPage from './../components/ProjectPage'
+import Layout from '../components/layout'
 
 const Neon = props => (
-  <div>
+  <Layout>
     <ProjectPage project={props.project} />
-  </div>
+  </Layout>
 )
 
 export default Neon

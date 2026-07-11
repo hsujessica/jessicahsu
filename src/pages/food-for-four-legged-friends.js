@@ -1,10 +1,13 @@
 import React from 'react'
 import ProjectPage from './../components/ProjectPage'
+import Layout from '../components/layout'
 
 const FoodFriends = props => (
-  <div>
-    <ProjectPage project={props.project} />
-  </div>
+  <Layout>
+    <div>
+      <ProjectPage project={props.project} />
+    </div>
+  </Layout>
 )
 
 export default FoodFriends
