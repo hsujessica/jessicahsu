@@ -5,10 +5,22 @@ const Craft = () => {
   return (
     <Layout>
       <div className="craft-container">
-        <img
+          <img
+          src="https://raw.githubusercontent.com/hsujessica/jessicahsu/master/src/static/ceramics01.jpg"
+          alt="ceramic mugs"
+        />
+          <img
+          src="https://raw.githubusercontent.com/hsujessica/jessicahsu/master/src/static/ceramics02.jpg"
+          alt="ceramic mugs"
+        />
+          <img
+          src="https://raw.githubusercontent.com/hsujessica/jessicahsu/master/src/static/ceramics03.jpg"
+          alt="ceramic mugs"
+        />
+        {/* <img
           src="https://raw.githubusercontent.com/hsujessica/jessicahsu/master/src/static/marbledclay.jpg"
           alt="clay dish"
-        />
+        /> */}
         <img
           src="https://raw.githubusercontent.com/hsujessica/jessicahsu/master/src/static/holepunch.JPG"
           alt="greeting card"

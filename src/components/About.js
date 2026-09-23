@@ -6,7 +6,7 @@ const About = () => {
     <div className="about">
       <div className="about-section">
         <p>Hi, I'm Jessica.</p>
-        <p>Code, craft, and crosswords.</p>
+        <p>Code, craft, ceramics, and crosswords.</p>
         <p>Currently at Block. Previously Dropbox.</p>
       </div>
       <div className="about-section">
